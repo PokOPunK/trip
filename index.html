@@ -43,9 +43,11 @@
 
   .stop-body { padding: 10px 12px; flex: 1; border-bottom: 1px solid rgba(0,0,0,0.07); }
   .stop:last-of-type .stop-body { border-bottom: none; }
-  .stop-name { font-weight: 700; font-size: 14px; margin-bottom: 3px; }
+  .stop-name { font-weight: 700; font-size: 14px; margin-bottom: 6px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
   .stop-name a { color: #1A1A2E; text-decoration: none; }
-  .stop-name a:hover { text-decoration: underline; color: #1565C0; }
+  .stop-name a:hover { color: #1565C0; }
+  .map-btn { display: inline-flex; align-items: center; gap: 4px; background: #1565C0; color: #fff !important; font-size: 11px; font-weight: 700; padding: 2px 9px; border-radius: 20px; white-space: nowrap; text-decoration: none !important; }
+  .map-btn:hover { background: #0d47a1; }
   .stop-detail { font-size: 13px; color: #3a4a5a; margin-bottom: 3px; }
   .stop-phone a { font-size: 12px; color: #1565C0; text-decoration: none; }
   .stop-phone a:hover { text-decoration: underline; }
@@ -94,7 +96,7 @@
       <div class="stop-row">
         <div class="stop-time">09:45</div>
         <div class="stop-body">
-          <div class="stop-name">🍜 <a href="https://maps.google.com/?cid=18094759786704707291" target="_blank">📍 ข้าวพันผัก indy</a></div>
+          <div class="stop-name">🍜 <a href="https://maps.google.com/?cid=18094759786704707291" target="_blank">📍 ข้าวพันผัก indy</a> <a href="https://maps.google.com/?cid=18094759786704707291" target="_blank" class="map-btn">🗺️ ดูแผนที่</a></div>
           <div class="stop-detail">มื้อแรก ข้าวพันผักลับแล · 1 ชม. · เปิด 09:30</div>
           <div class="stop-phone"><a href="tel:0804470345">📞 080-447-0345</a></div>
           <div class="stop-warn">⚠️ ปิดวันพุธ — กินวันนี้เท่านั้น!</div>
@@ -108,7 +110,7 @@
       <div class="stop-row">
         <div class="stop-time">10:50</div>
         <div class="stop-body">
-          <div class="stop-name">📸 <a href="https://maps.google.com/?cid=12937618454702157675" target="_blank">📍 ซุ้มประตูเมืองลับแล</a></div>
+          <div class="stop-name">📸 <a href="https://maps.google.com/?cid=12937618454702157675" target="_blank">📍 ซุ้มประตูเมืองลับแล</a> <a href="https://maps.google.com/?cid=12937618454702157675" target="_blank" class="map-btn">🗺️ ดูแผนที่</a></div>
           <div class="stop-detail">ถ่ายรูปแลนด์มาร์ก · เข้าฟรี · 45 นาที</div>
         </div>
       </div>
@@ -120,7 +122,7 @@
       <div class="stop-row">
         <div class="stop-time">11:55</div>
         <div class="stop-body">
-          <div class="stop-name">☕ <a href="https://maps.google.com/?cid=3857286138550366773" target="_blank">📍 เฮือนลับแล</a></div>
+          <div class="stop-name">☕ <a href="https://maps.google.com/?cid=3857286138550366773" target="_blank">📍 เฮือนลับแล</a> <a href="https://maps.google.com/?cid=3857286138550366773" target="_blank" class="map-btn">🗺️ ดูแผนที่</a></div>
           <div class="stop-detail">มื้อเที่ยง + คาเฟ่ล้านนา · 1.5 ชม. · เปิด 09:00–18:00</div>
           <div class="stop-phone"><a href="tel:0912551939">📞 091-255-1939</a></div>
         </div>
@@ -133,7 +135,7 @@
       <div class="stop-row">
         <div class="stop-time">13:30</div>
         <div class="stop-body">
-          <div class="stop-name">📸 <a href="https://maps.google.com/?cid=15881498408337892886" target="_blank">📍 น้ำตกแม่พูล</a></div>
+          <div class="stop-name">📸 <a href="https://maps.google.com/?cid=15881498408337892886" target="_blank">📍 น้ำตกแม่พูล</a> <a href="https://maps.google.com/?cid=15881498408337892886" target="_blank" class="map-btn">🗺️ ดูแผนที่</a></div>
           <div class="stop-detail">แช่เท้าเย็นๆ พักผ่อน · 1.5 ชม. · เปิดตลอด</div>
           <div class="stop-warn">⚠️ หินลื่น ใส่รองเท้ากันลื่น</div>
         </div>
@@ -146,7 +148,7 @@
       <div class="stop-row">
         <div class="stop-time">15:45</div>
         <div class="stop-body">
-          <div class="stop-name">🏨 <a href="https://maps.google.com/maps/place/One+dee+dee+Resort/@17.6216448,100.1254711,17z" target="_blank">📍 One Dee Dee Resort</a></div>
+          <div class="stop-name">🏨 <a href="https://maps.google.com/maps/place/One+dee+dee+Resort/@17.6216448,100.1254711,17z" target="_blank">📍 One Dee Dee Resort</a> <a href="https://maps.google.com/maps/place/One+dee+dee+Resort/@17.6216448,100.1254711,17z" target="_blank" class="map-btn">🗺️ ดูแผนที่</a></div>
           <div class="stop-detail">ห้องสะอาด บรรยากาศดี ~650 บาท/คืน ⭐ 4.9</div>
           <div class="stop-phone"><a href="tel:0635491691">📞 063-549-1691</a></div>
         </div>
@@ -159,7 +161,7 @@
       <div class="stop-row">
         <div class="stop-time">18:00</div>
         <div class="stop-body">
-          <div class="stop-name">🍽️ <a href="https://maps.google.com/?cid=894315546478495020" target="_blank">📍 By the River Uttaradit</a></div>
+          <div class="stop-name">🍽️ <a href="https://maps.google.com/?cid=894315546478495020" target="_blank">📍 By the River Uttaradit</a> <a href="https://maps.google.com/?cid=894315546478495020" target="_blank" class="map-btn">🗺️ ดูแผนที่</a></div>
           <div class="stop-detail">มื้อเย็นริมน้ำน่าน วิวสวย · 1.5 ชม. · เปิดถึงเที่ยงคืน</div>
           <div class="stop-phone"><a href="tel:0950598401">📞 095-059-8401</a></div>
         </div>
@@ -177,7 +179,7 @@
       <div class="stop-row">
         <div class="stop-time">09:20</div>
         <div class="stop-body">
-          <div class="stop-name">📸 <a href="https://maps.google.com/?cid=3689599784140879003" target="_blank">📍 วัดพระแท่นศิลาอาสน์</a></div>
+          <div class="stop-name">📸 <a href="https://maps.google.com/?cid=3689599784140879003" target="_blank">📍 วัดพระแท่นศิลาอาสน์</a> <a href="https://maps.google.com/?cid=3689599784140879003" target="_blank" class="map-btn">🗺️ ดูแผนที่</a></div>
           <div class="stop-detail">ทำบุญ ไหว้พระ · 45 นาที · เปิด 09:00–17:00</div>
           <div class="stop-phone"><a href="tel:0810400064">📞 081-040-0064</a></div>
         </div>
@@ -190,7 +192,7 @@
       <div class="stop-row">
         <div class="stop-time">10:05</div>
         <div class="stop-body">
-          <div class="stop-name">📸 <a href="https://maps.google.com/?cid=5399109435857130104" target="_blank">📍 วัดพระบรมธาตุทุ่งยั้ง</a></div>
+          <div class="stop-name">📸 <a href="https://maps.google.com/?cid=5399109435857130104" target="_blank">📍 วัดพระบรมธาตุทุ่งยั้ง</a> <a href="https://maps.google.com/?cid=5399109435857130104" target="_blank" class="map-btn">🗺️ ดูแผนที่</a></div>
           <div class="stop-detail">เจดีย์ทองสวยอร่าม · 20 นาที · เปิดตลอด</div>
         </div>
       </div>
@@ -202,7 +204,7 @@
       <div class="stop-row">
         <div class="stop-time">10:40</div>
         <div class="stop-body">
-          <div class="stop-name">☕📸 <a href="https://maps.google.com/?cid=4226103709584608151" target="_blank">📍 OKOKU CAFE</a></div>
+          <div class="stop-name">☕📸 <a href="https://maps.google.com/?cid=4226103709584608151" target="_blank">📍 OKOKU CAFE</a> <a href="https://maps.google.com/?cid=4226103709584608151" target="_blank" class="map-btn">🗺️ ดูแผนที่</a></div>
           <div class="stop-detail">คาเฟ่ธีมญี่ปุ่น กิโมโนฟรี! · 45 นาที · เปิด 10:00</div>
           <div class="stop-phone"><a href="tel:0806689900">📞 080-668-9900</a></div>
         </div>
@@ -215,7 +217,7 @@
       <div class="stop-row">
         <div class="stop-time">11:40</div>
         <div class="stop-body">
-          <div class="stop-name">🍜📸 <a href="https://maps.google.com/?cid=15903891844028662260" target="_blank">📍 แลบัว อุตรดิตถ์</a></div>
+          <div class="stop-name">🍜📸 <a href="https://maps.google.com/?cid=15903891844028662260" target="_blank">📍 แลบัว อุตรดิตถ์</a> <a href="https://maps.google.com/?cid=15903891844028662260" target="_blank" class="map-btn">🗺️ ดูแผนที่</a></div>
           <div class="stop-detail">มื้อเที่ยง + ถ่ายรูปบึงบัว · 1 ชม. 15 นาที</div>
           <div class="stop-phone"><a href="tel:0864158907">📞 086-415-8907</a></div>
         </div>
@@ -228,7 +230,7 @@
       <div class="stop-row">
         <div class="stop-time">13:25</div>
         <div class="stop-body">
-          <div class="stop-name">📸 <a href="https://maps.google.com/?cid=14224847924093644522" target="_blank">📍 วัดพลอยสังวรนิรันดร์</a></div>
+          <div class="stop-name">📸 <a href="https://maps.google.com/?cid=14224847924093644522" target="_blank">📍 วัดพลอยสังวรนิรันดร์</a> <a href="https://maps.google.com/?cid=14224847924093644522" target="_blank" class="map-btn">🗺️ ดูแผนที่</a></div>
           <div class="stop-detail">พระนาคปรกยักษ์ 19 ม. ถ่ายรูปสวยมาก · 1 ชม.</div>
           <div class="stop-phone"><a href="tel:0801950935">📞 080-195-0935</a></div>
         </div>
